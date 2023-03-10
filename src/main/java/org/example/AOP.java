@@ -18,7 +18,7 @@ import java.util.stream.Collectors;
 @Aspect
 public class AOP {
     @Autowired
-    public void TestAOP(Convert convert) {
+    public AOP(Convert convert) {
         this.convert = convert;
     }
     Convert convert;
